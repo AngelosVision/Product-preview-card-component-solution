@@ -3,6 +3,7 @@
 
 :root {
   --Dark-cyan: hsl(158, 36%, 37%);
+  --Dark-cyan-2: hsl(158, 20%, 30%);
   --Cream: hsl(30, 38%, 92%);
 
   --Very-dark-blue: hsl(212, 21%, 14%);
@@ -121,6 +122,11 @@ body {
   font-family: "Montserrat";
   font-weight: 700;
   font-size: var(--Font-size-1);
+  transition: all .3s;
+}
+
+.card-btn:hover {
+  background-color: var(--Dark-cyan-2);
 }
 
 @media screen and (max-width: 768px) {
